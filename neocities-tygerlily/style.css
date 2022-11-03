@@ -1,0 +1,25 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5e5a5b8a-a3a1-419d-97b6-1d613cb2f949/dfgxbel-06bc3033-2493-4d0a-8c4d-d3adcbba65ec.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVlNWE1YjhhLWEzYTEtNDE5ZC05N2I2LTFkNjEzY2IyZjk0OVwvZGZneGJlbC0wNmJjMzAzMy0yNDkzLTRkMGEtOGM0ZC1kM2FkY2JiYTY1ZWMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xUcduYl6CfjDRSzW5k7NcoZe5vIDch7FYoJBPVkR9Wg');
+  background-color: white;
+  color: black;
+  font-family: Arial;
+  
+}
+.basicInfo{
+    width: 350px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+   top: 0; /* Stay at the top */
+   left: 0;
+   background-color: #0000ff80; /* Blue transparent? */
+   overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .main {
+   margin-left: 350px; /* Same as the width of the sidebar */
+   padding: 0px 10px;
+  }
